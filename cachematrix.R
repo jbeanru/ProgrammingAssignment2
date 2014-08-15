@@ -67,7 +67,7 @@ cacheSolve <- function(x, ...) {
 #	The expected output should be:
 # 		- Just print the inverse matrix when calling cacheSolve for the 1st time.
 #		- Print the inverse matrix, and give a "getting cached data" message when 
-#         running afterwards.
+#		  running afterwards.
 
 testCache <- function(){
 
