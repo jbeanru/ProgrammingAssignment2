@@ -11,6 +11,7 @@
 # 		default value is a blank matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
+	
 	inv_matrix <- NULL
 
 	# 1. set the original matrix(should be invertible)
@@ -43,6 +44,7 @@ makeCacheMatrix <- function(x = matrix()) {
 # 	x A function object of makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
+	
     # 1. get the inverse matrix from cache
 	inv_m <- x$getInverse()
 	if(!is.null(inv_m)) {
