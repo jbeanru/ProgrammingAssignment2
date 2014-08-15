@@ -56,6 +56,7 @@ cacheSolve <- function(x, ...) {
 	inv_m <- solve(data, ...)
 	x$setInverse(inv_m)
 	
+	# 3. return the inverse matrix
 	inv_m
 }
 
@@ -76,7 +77,6 @@ testCache <- function(){
 	cached_mt <- makeCacheMatrix(mt)
 	
 	# 3. using cache for first round
-	
 	cached_inv_r1 <- cacheSolve(cached_mt)
 	print("inverse matrix(1st round):")
 	cached_inv_r1
