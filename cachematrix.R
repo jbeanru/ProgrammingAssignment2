@@ -63,10 +63,10 @@ cacheSolve <- function(x, ...) {
 }
 
 # Description:
-#	The test case - run testCache() in R Console.Please passed the test 
-#	with expected result as the following:
-# 		-Give "getting cached data" when running for the first time,
-#		-Don't give the above message when running aferwards.
+#	The test case - run testCache() in R Console.
+#	The expected output should be:
+# 		-Give "getting cached data" message when running for the first time
+#		-Don't give the above message when running afterwards.
 
 testCache <- function(){
 
