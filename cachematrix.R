@@ -1,4 +1,4 @@
-# It's the deliverable for programming assignment 2 of R Programming.
+# Submission for the programming assignment 2 of R Programming.
 
 # Overview:
 # 	Caching the inverse of a matrix using lexical scoping mechanism.
